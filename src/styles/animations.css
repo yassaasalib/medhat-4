@@ -1,0 +1,36 @@
+/* Carousel animations */
+.carousel-fade-enter {
+  opacity: 0;
+}
+
+.carousel-fade-enter-active {
+  opacity: 1;
+  transition: opacity 800ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.carousel-fade-exit {
+  opacity: 1;
+}
+
+.carousel-fade-exit-active {
+  opacity: 0;
+  transition: opacity 800ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Performance optimizations */
+.will-change-opacity {
+  will-change: opacity;
+}
+
+.hardware-accelerated {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .carousel-fade-enter-active,
+  .carousel-fade-exit-active {
+    transition: none;
+  }
+}

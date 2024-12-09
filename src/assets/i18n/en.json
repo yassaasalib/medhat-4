@@ -1,0 +1,84 @@
+{
+  "header": {
+    "home": "Home",
+    "services": "Services",
+    "gallery": "Photo Gallery",
+    "booking": "Booking"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Professional photography services tailored to your needs",
+    "learnMore": "Learn More",
+    "startingAt": "Starting at",
+    "duration": "Duration",
+    "categories": {
+      "family": {
+        "title": "Family Photography",
+        "description": "Professional family photography capturing precious moments and creating lasting memories"
+      },
+      "adultBirthday": {
+        "title": "Adult Birthday Photography",
+        "description": "Professional coverage for adult birthday celebrations"
+      },
+      "childrenBirthday": {
+        "title": "Children's Birthday Photography",
+        "description": "Specialized photography for children's birthday parties"
+      },
+      "maternity": {
+        "title": "Maternity Photography",
+        "description": "Beautiful maternity photography celebrating the journey of motherhood"
+      },
+      "fashion": {
+        "title": "Fashion Photography",
+        "description": "Professional fashion photography for models and brands"
+      },
+      "graduation": {
+        "title": "Graduation Photography",
+        "description": "Professional photography for graduation ceremonies"
+      },
+      "marriageContract": {
+        "title": "Marriage Contract Photography",
+        "description": "Professional photography for marriage contract ceremonies"
+      },
+      "engagement": {
+        "title": "Engagement Session Photography",
+        "description": "Romantic engagement photography sessions"
+      },
+      "printing": {
+        "title": "Printing Services",
+        "description": "High-quality printing services for your photographs"
+      }
+    }
+  },
+  "booking": {
+    "title": "Book a Session",
+    "subtitle": "Fill out the form below to request a booking",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "service": "Service Type",
+      "date": "Preferred Date",
+      "message": "Message",
+      "optional": "optional",
+      "submit": "Submit Booking",
+      "submitting": "Submitting...",
+      "success": "Thank you! Your booking request has been submitted successfully.",
+      "error": "An error occurred while submitting your request. Please try again.",
+      "selectService": "Select a service",
+      "placeholders": {
+        "name": "Enter your full name",
+        "email": "your@email.com",
+        "phone": "Your phone number",
+        "date": "Select a date",
+        "message": "Tell us about your project..."
+      }
+    }
+  },
+  "footer": {
+    "about": "About Us",
+    "description": "We are a creative photography studio dedicated to capturing life's most precious moments with artistic vision and technical excellence",
+    "quickLinks": "Quick Links",
+    "contact": "Contact Us"
+  }
+}
